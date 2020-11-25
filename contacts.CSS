@@ -1,0 +1,175 @@
+h1
+{
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: rgb(223, 188, 218);
+    border-style: double;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3
+{
+    font-family: handayani;
+    color: rgb(223, 188, 218);
+    font-size: 20px;
+    text-align: center;
+}
+
+#contact_select_label
+{
+    text-align: center;
+}
+
+#contact_select
+{
+    margin: auto;
+    width: 50%;
+}
+
+#control_div
+{
+    border-style: double;
+    border-color: rgb(247, 6, 195);
+    background-color: rgb(229, 243, 177);
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    color: black;
+    font-family: Impact, Charcoal, sans-serif;
+    margin: auto;
+    padding: 5px;
+}
+
+#form_div
+{
+    border-style: double;
+    background-color: rgb(229, 243, 177);
+    border-color: rgb(247, 6, 195);
+    border-radius: 10px;
+    color: black;
+    font-family: Impact, Charcoal, sans-serif;
+    margin: auto;
+    width: fit-content;
+    padding: 5px;
+}
+
+#button_div
+{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: fit-content;
+}
+
+#edit_button
+{
+    color: black;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: cyan 20%;
+    background-color: rgb(168, 73, 164);
+    font-size: 15px;
+    font-family: monospace;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 2 10px 15px rgba(241, 62, 197, 0.4);
+}
+#delete_button
+{
+    color: black;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: cyan 20%;
+    background-color: rgb(168, 73, 164);
+    font-size: 15px;
+    font-family: monospace;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 2 10px 15px rgba(241, 62, 197, 0.4);
+}
+#new_button
+{
+    color: black;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: cyan 20%;
+    background-color: rgb(168, 73, 164);
+    font-size: 15px;
+    font-family: monospace;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 2 10px 15px rgba(241, 62, 197, 0.4);
+}
+
+/* button:hover
+{
+    color: black;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: cyan 20%;
+    background-color: rgb(168, 73, 164);
+    font-size: 15px;
+    font-family: monospace;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 2 10px 15px rgba(241, 62, 197, 0.4);
+} */
+
+#contact_select
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(223, 188, 218);
+    padding: 5px;
+    font-size: 15px;
+    margin: auto;
+    width: fit-content;
+}
+
+input [type="radio"]
+{
+vertical-align: right;
+}
+
+body
+{
+    background-color: rgb(34, 33, 33);
+    padding: 20px;
+    animation-fill-mode: initial;
+}
+
+table
+{
+    border-style: double;
+    border-radius: 10px;
+    background-color: rgb(229, 243, 177);
+    border-color: rgb(247, 6, 195);
+    margin: auto;
+    width: fit-content;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+#submit_button
+{
+    color: black;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: cyan 20%;
+    background-color: rgb(168, 73, 164);
+    font-size: 15px;
+    font-family: monospace;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 2 10px 15px rgba(241, 62, 197, 0.4);
+}
+
+table td
+{
+    border:1px solid rgb(247, 6, 195);
+    font-family: monospace;
+}
+
+#idEditLabel
+{
+    text-align: right
+}
