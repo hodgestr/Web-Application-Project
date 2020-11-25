@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>
+            Contacts
+        </title>
+        <link rel="stylesheet" href="contacts.css">
+    </head>
+    <body>
+        <h1>Welcome to the Contact Management Application</h1>
+        <br>
+        <p>
+            
+        </p>
+        <div id='control_div'>
+            <br>
+            <label id='contact_select_label' for='contact_select'>Select a contact to edit:   </label>
+            <br><br>
+            <select id='contact_select' onchange='fillEditForm()'>
+
+            </select>
+            <div id='button_div'>
+                <button id='edit_button' type='button' onclick='fillEditForm()'>Edit Contact</button>
+                <button id='delete_button' type='button' onclick='deleteContact()'>Delete Contact</button>
+                <button id='new_button' type='button' onclick='clearForm()'>New Contact</button>
+            </div>
+            <br><br>
+        </div>
+        <br>
+        <div id='form_div'>
+            <form id='contact_form'>
+                <label id='idEditLabel' for='idEdit'>Contact ID: </label>
+                <input type='text' id='idEdit' name='idEdit' value=0><br>
+                <label for='firstNameEdit'>Please enter your first name: </label>
+                <input type='text' id='firstNameEdit' name='firstName'>
+                <br>
+                <label for='lastNameEdit'>Please enter your last name: </label>
+                <input type='text' id='lastNameEdit' name='lastName'>
+                <br>
+                <label for="ageEdit">Please enter your age: </label>
+                <input type="number" id="ageEdit" name="age">
+                <br>
+                <label for="phoneEdit">Please enter your phone number: </label>
+                <input type="tel" id="phoneEdit" name="phoneEdit" pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}'>
+                <br>
+                <label for="emailEdit">Please enter your email: </label>
+                <input type="email" id="emailEdit" name="emailEdit">
+                <br><br><br>
+                <input type='button' id='submitButton' onclick='submitForm()' value='Submit'>
+            </form>
+        </div>
+        <br>
+        <div>
+            <table id='contacts_table'>
+                <tr>
+                    <th>Contact Id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                </tr>
+            </table>
+        </div>
+    </body>
+    <script src='contacts.js'></script>
+</html>
