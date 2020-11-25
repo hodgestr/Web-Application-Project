@@ -1,5 +1,5 @@
 # Web-Application-Project
-# This project consists of 3 files - .js, .html and a .CSS file.
+# This project consists of 4 files - Two .js files, a .html and .CSS file
 # I used pgAdmin for my database
 # For my own memory-refresher purposes, I am pasting the project details below from the assignment page in my school's Canvas page:
 
